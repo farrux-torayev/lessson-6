@@ -7,11 +7,11 @@ const Home = () => {
   const { t } = useTranslation([]);
   return (
     <>
-      <div className="bg-[#F5F5F5]">
+      <div className="">
         <Navbar />
         <Card />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

@@ -7,11 +7,13 @@ import Jahon from "../page/jahon";
 import Iqtisodiyot from "../page/iqtisodiyot";
 import Jamiyat from "../page/jamiyat";
 import Sport from "../page/sport";
+import About from "../Components/about";
 
 const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="/admin" element={<Admin />} />
       <Route path="/Jahon" element={<Jahon />} />
       <Route path="/Iqtisodiyot" element={<Iqtisodiyot/>}/>

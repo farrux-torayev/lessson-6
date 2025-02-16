@@ -8,7 +8,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex items-center m-auto  w-[1300px] justify-around">
+      <div className=" bg-[#F5F5F5] ">
+        <div className="flex items-center m-auto  bg-white mt-[50px] w-[1300px]  justify-around">
         <div>
           <img src="./src/assets/logo-light.svg" alt="" />
         </div>
@@ -35,6 +36,8 @@ const Navbar = () => {
         <div className="flex items-center">
           <Til />
         </div>
+        </div>
+        
       </div>
     </>
   );

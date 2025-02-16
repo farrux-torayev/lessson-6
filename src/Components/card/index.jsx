@@ -22,8 +22,11 @@ const Card = () => {
   }, []);
   return (
     <>
+    <div className="border bg-[#F5F5F5]"> 
+
+    
       {isLoading && <Loading />}
-      <div className="w-[1300px]   m-auto flex bg-[#F5F5F5] ">
+      <div className="w-[1300px]   m-auto flex  ">
         <div className="w-[400px]  flex flex-col gap-[30px] h-[1190px] overflow-hidden">
           {posts.map((item) => (
             <div key={item.id} className="py-[30px]">
@@ -158,6 +161,7 @@ const Card = () => {
         </div>
         </div>
         
+      </div>
       </div>
     </>
   );

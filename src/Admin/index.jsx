@@ -20,8 +20,11 @@ const Admin = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="m-auto w-[350px] h-[500px] border my-[50px]">
+    <div className="">
+
+    
+      <Navbar  />
+      <div className="m-auto w-[350px] h-[500px]    border my-[50px] ">
         <form onSubmit={handleSubmit} className="flex flex-col" action="">
           <h1 className="text-center my-[15px]">Admin</h1>
           <input
@@ -84,6 +87,7 @@ const Admin = () => {
         </form>
       </div>
       <Footer />
+      </div>
     </>
   );
 };
